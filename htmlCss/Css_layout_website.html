@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color: hsl(0, 0%, 86%);
+            text-align: center;
+            padding: 25px;
+        }
+        .navbar{
+            background-color: hsl(0, 0%, 15%);
+            height: 50px;
+        }
+        aside{
+            width: 20%;
+            float: left;
+            padding: 10px;
+        }
+        section{
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        article{
+            width: 40%;
+            float: left;
+            padding: 10px
+        }
+        footer{
+            display: block;
+            clear: both;
+            background-color: hsl(0, 0%, 86%);
+            text-align: center;
+            padding: 25%;
+        }
+        /* @media screen and (max-width:600px){
+            aside, section, article{
+                width: 100%;
+            }
+        } */
+
+
+    </style>
+</head>
+<body>
+<!--     
+    semantic tags = keep your content organized for SEO, Assists screen readerand other tech for accessibility. this include but not limited to:
+
+    <header> = introductory content
+    <nav> = navigation bar, links
+    <main> = main content (section, aside, )
+    <section> = dependent content
+    <aside> = side content
+    <article> = independent content
+    <footer> = closing content
+     -->
+    
+    <header>
+        <h2>Header</h2>
+    </header>
+    <nav class="navbar">
+
+    </nav>
+    <main>
+        <aside>
+            <h2>This is aside</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem, necessitatibus non fugit vitae minima iste libero aspernatur nisi ab corporis, quos voluptate commodi similique quod ut laborum ipsum porro?</p>
+        </aside>
+        <section>
+            <h2>This a section</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil necessitatibus, quidem nemo nam esse reprehenderit sit labore laudantium beatae amet nulla quis unde, tempore incidunt sunt modi? Ad, consequatur in.</p>
+        </section>
+        <article>
+            <h2>This is article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea error omnis totam voluptate expedita voluptates sed, quos beatae harum qui labore veniam ex dolores voluptatem nam neque! Quasi, assumenda numquam.</p>
+        </article>
+    </main>
+    <footer>
+        Footer
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .pagination{
+            text-align: center;
+        }
+        .pagination a{
+            color: black;
+            text-decoration: none;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+        .pagination a.active{
+            background-color: hsl(120, 100%, 70%);
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .pagination a:hover:not(.active){
+            background-color: hsl(0, 0%, 77%);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is page #1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quasi ad, illo est magnam molestiae labore officia non minima, esse vel pariatur? Tenetur aliquid sunt officiis vel mollitia porro numquam.</p>
+
+    <div class="pagination">
+        <a href="Css_pagination_index.html"><</a>
+        <a href="Css_pagination1.html">1</a>
+        <a href="Css_pagination2.html">2</a>
+        <a href="Css_pagination3.html" class="active">3</a>
+        <a href="Css_pagination4.html">4</a>
+        <a href="Css_pagination5.html">5</a>
+        <a href="Css_pagination2.html">></a>
+    </div>
+</body>
+</html>
